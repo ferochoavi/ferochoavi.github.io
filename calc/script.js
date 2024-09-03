@@ -83,10 +83,6 @@ class Calculator {
         } else {
             this.previousOperandTextElement.innerText = ''
         }
-        this.surprise()    
-    }
-    surprise() {
-        if (this.currentOperand === 13) {previousOperandTextElement.innerText ='Entre mas me la mamas mas me crece'}
     }
 }
 
